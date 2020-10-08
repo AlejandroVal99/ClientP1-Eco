@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A8DAF1"
-    tools:context=".SecondActivity">
+    tools:context=".view.SecondActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -72,7 +72,7 @@
         android:id="@+id/btn_ChangeColor"
         android:layout_width="321dp"
         android:layout_height="65dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="160dp"
         android:background="#3F51B5"
         android:text="Cambiar de color"
         android:textColor="#FFFFFF"

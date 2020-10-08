@@ -13,7 +13,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class TCPSingleton {
+public class TCPSingleton extends Thread{
 
     private static TCPSingleton instace;
 
@@ -22,6 +22,7 @@ public class TCPSingleton {
     public static TCPSingleton getInstance() {
         if(instace == null) {
             instace = new TCPSingleton();
+            instace.start();
         }
         return instace;
     }
@@ -33,7 +34,7 @@ public class TCPSingleton {
     public void run() {
 
         try {
-            socket = new Socket("192.168.0.6",5000);
+            socket = new Socket("192.168.0.114",5000);
 
             InputStream is = socket.getInputStream();
             InputStreamReader isr = new InputStreamReader(is);
