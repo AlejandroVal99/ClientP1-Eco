@@ -67,7 +67,7 @@ public class SecondActivity extends AppCompatActivity implements OnMessageListen
                                             String obj = gson.toJson(direction);
                                             tcp.sendMessage(obj);
                                             try {
-                                                Thread.sleep(90);
+                                                Thread.sleep(70);
                                             } catch (InterruptedException e) {
                                                 e.printStackTrace();
                                             }
@@ -101,7 +101,7 @@ public class SecondActivity extends AppCompatActivity implements OnMessageListen
                                             String obj = gson.toJson(direction);
                                             tcp.sendMessage(obj);
                                             try {
-                                                Thread.sleep(90);
+                                                Thread.sleep(70);
                                             } catch (InterruptedException e) {
                                                 e.printStackTrace();
                                             }
@@ -135,7 +135,7 @@ public class SecondActivity extends AppCompatActivity implements OnMessageListen
                                             String obj = gson.toJson(direction);
                                             tcp.sendMessage(obj);
                                             try {
-                                                Thread.sleep(90);
+                                                Thread.sleep(70);
                                             } catch (InterruptedException e) {
                                                 e.printStackTrace();
                                             }
@@ -169,7 +169,7 @@ public class SecondActivity extends AppCompatActivity implements OnMessageListen
                                             String obj = gson.toJson(direction);
                                             tcp.sendMessage(obj);
                                             try {
-                                                Thread.sleep(90);
+                                                Thread.sleep(70);
                                             } catch (InterruptedException e) {
                                                 e.printStackTrace();
                                             }
